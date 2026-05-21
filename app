@@ -1,0 +1,75 @@
+RaceConnection/
+│
+├── app/
+│   ├── intelligence/
+│   │   ├── cil_core.py
+│   │   ├── driver_identity_engine.py
+│   │   ├── badge_engine.py
+│   │   ├── tier_engine.py
+│   │   ├── setup_engine.py
+│   │   ├── logs_engine.py
+│   │   └── crew_chief_engine.py
+│   │
+│   ├── api/
+│   │   ├── cars_api.py
+│   │   ├── drivers_api.py
+│   │   ├── badges_api.py
+│   │   ├── logs_api.py
+│   │   ├── setups_api.py
+│   │   └── identity_api.py
+│   │
+│   └── lifecycle/
+│       ├── version_engine.py
+│       ├── update_engine.py
+│       ├── sync_engine.py
+│       └── heartbeat.py
+│
+├── ui/
+│   ├── screens/
+│   │   ├── dashboard.jsx
+│   │   ├── driver_profile.jsx
+│   │   ├── car_profile.jsx
+│   │   ├── setup_notes.jsx
+│   │   ├── crew_chief_notes.jsx
+│   │   ├── driver_notes.jsx
+│   │   ├── badges.jsx
+│   │   ├── tiers.jsx
+│   │   ├── race_logs.jsx
+│   │   └── garage.jsx
+│   │
+│   └── components/
+│       ├── button.jsx
+│       ├── card.jsx
+│       ├── list.jsx
+│       ├── modal.jsx
+│       └── navigation.jsx
+│
+├── data/
+│   ├── cars.json
+│   ├── drivers.json
+│   ├── badges.json
+│   ├── setups.json
+│   └── logs.json
+│
+├── docs/
+│   ├── architecture.md
+│   ├── raceconnection_v9x_canon.md
+│   ├── badge_system_2.0.md
+│   ├── identity_archetypes_3.0.md
+│   ├── electra_2.0_geometry.md
+│   ├── driver_briefing.md
+│   ├── crew_chief_adjustments.md
+│   ├── race_logs_format.md
+│   └── build_instructions.md
+│
+├── scripts/
+│   ├── build.sh
+│   ├── deploy.sh
+│   └── sync.sh
+│
+├── public/
+│   ├── icons/
+│   ├── images/
+│   └── assets/
+│
+└── README.md
