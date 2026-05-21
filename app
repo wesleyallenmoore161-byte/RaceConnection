@@ -3,9 +3,28 @@ RaceConnection/
 ├── app/
 │   ├── intelligence/
 │   │   ├── cil_core.py
+class CILCore:
+    def __init__(self):
+        self.version = "v9.X"
+    
+    def heartbeat(self):
+        return "CIL Core Active — RaceConnection v9.X"
+
 │   │   ├── driver_identity_engine.py
+class DriverIdentityEngine:
+    def assign_archetype(self, driver_data):
+        return "Archetype assigned based on Identity 3.0 model"
+
 │   │   ├── badge_engine.py
+class BadgeEngine:
+    def award_badge(self, driver_id, badge):
+        return f"Badge '{badge}' awarded to driver {driver_id}"
+
 │   │   ├── tier_engine.py
+class TierEngine:
+    def calculate_tier(self, stats):
+        return "Tier calculated using Tier System 2.0"
+
 │   │   ├── setup_engine.py
 │   │   ├── logs_engine.py
 │   │   └── crew_chief_engine.py
